@@ -1,0 +1,124 @@
+---
+title: "Strona Startowa Chmury Strzeleckiej"
+subtitle: "ZS „STRZELEC” OSW Jednostka Strzelecka 1011 im. rtm. Wiktora Konopki ps. Grom"
+logo: "assets/orzelek.png"
+
+header: true
+footer: Strona utrzymywana przez Sekcje Administracji, Informacji i Promocji JS1011 w Grajewie
+
+defaults:
+  colorTheme: dark
+
+colors:
+  dark:
+    highlight-primary: "#47411F"
+    highlight-secondary: "#fec700"
+    highlight-hover: "#e61c66"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+message:
+  style: "is-dark"
+  title: "Czolem!"
+  content: "Na tej stronie znajdziesz odnośniki do innych systemów, utrzymywanych przez nas <br> Logowanie do wszystkich systemów odbywa sie poprzez konto strzeleckie. Jezeli nie masz takiego konta i jestes u nas od niedawna, prosze, wypelnij <a href='https://forms.office.com/r/gRbQ4pGdJY'>formularz</a>"
+
+links:
+  - name: "Edytuj Strone"
+    icon: "fab fa-github"
+    url: "https://github.com/ZS-Strzelec-OSW-JS-1011-Grajewo/homer-config"
+  - name: "Aplikacje Mobilne"
+    icon: "fas fa-book"
+    url: "https://wiki.strzelec.grajewo.pl/display/JS1011/Aplikacje+Mobilne"
+
+services:
+  - name: "Microsoft"
+    icon: "fab fa-windows"
+    items:
+      - name: "Outlook"
+        logo: "assets/tools/outlook.png"
+        subtitle: "Poczta elektroniczna"
+        url: "https://outlook.office.com/"
+      - name: "Teams"
+        logo: "assets/tools/teams.png"
+        subtitle: "Komunikator"
+        url: "https://teams.microsoft.com/"
+      - name: "OneDrive"
+        logo: "assets/tools/onedrive.png"
+        subtitle: "1TB przestrzeni dyskowej dla każdego strzelca"
+        url: "https://onedrive.live.com"
+      - name: "Pakiet Office"
+        logo: "assets/tools/office.png"
+        subtitle: "Oprogramowanie z pakietu Office (Word, Excel, PowerPoint)"
+        url: "https://office.com"	
+  - name: "Atlassian"
+    icon: "fas fa-clipboard"
+    items:
+      - name: "Jira"
+        logo: "assets/tools/jira.png"
+        subtitle: "System zarządzania i planowania zadań"
+        url: "https://jira.strzelec.grajewo.pl/"
+      - name: "Confluence"
+        logo: "assets/tools/confluence.png"
+        subtitle: "Nasza wiki; strzelecka baza wiedzy"
+        url: "https://wiki.strzelec.grajewo.pl"
+  - name: "Social Media"
+    icon: "fas fa-users"
+    items:
+      - name: "Facebook"
+        logo: "assets/tools/facebook.png"
+        subtitle: "Strona JS1011 na Facebooku"
+        url: "https://www.facebook.com/js1011"
+      - name: "Strona WWW"
+        logo: "assets/tools/9psk.png"
+        subtitle: "Strona-wizytówka naszej Jednostki"
+        url: "https://strzelec.grajewo.pl"
+  - name: "Zaawansowane"
+    icon: "fas fa-user-secret"
+    items:
+      - name: "Magazyn"
+        subtitle: "Oprogramowanie do zarządzania stanem magazynowym"
+        logo: "assets/tools/python.png"
+      - name: "MS Forms"
+        subtitle: "Tworzenie ankiet i zbieranie wyników"
+        url: "https://forms.office.com/"
+        logo: "assets/tools/forms.png"
+      - name: "MS Lists"
+        subtitle: "Tworzenie programowalnych list"
+        url: "https://www.microsoft.com/pl-pl/microsoft-365/microsoft-lists"
+        logo: "assets/tools/lists.png"      
+      - name: "MS PowerApps"
+        subtitle: "Narzędzia do tworzenia prostych aplikacji mobilnych"
+        url: "https://make.powerapps.com/"
+        logo: "assets/tools/powerapps.png"
+      - name: "MS Visio"
+        subtitle: "Tworzenie diagramów i grafiki wektorowej"
+        url: "https://www.office.com/launch/visio"
+        logo: "assets/tools/visio.png"
+
+  - name: "Sekcja AIP"
+    icon: "fas fa-vcard"
+    items:
+      - name: "Canva"
+        subtitle: "Program do tworzenia grafik"
+        url: "https://www.canva.com/"
+        logo: "assets/tools/canva.png"	
+      - name: "M365 Admin Center"
+        subtitle: "Zarządzanie użytkownikami i licencjami"
+        url: "https://admin.microsoft.com/"
+        logo: "assets/tools/admin.png"	
+      - name: "Azure Portal"
+        subtitle: "Panel do zarządzania infrastrukturą"
+        url: "https://portal.azure.com/"
+        logo: "assets/tools/azure.png"	
+      - name: "GitHub"
+        subtitle: "Miejsce na kod źródłowy związany z JS1011"
+        url: "https://github.com/ZS-Strzelec-OSW-JS-1011-Grajewo"
+        logo: "assets/tools/github.png"	
+  
